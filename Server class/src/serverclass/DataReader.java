@@ -1,11 +1,13 @@
 package serverclass;
 
-public class DataReader {
+import java.util.Set;
+
+abstract class DataReader {
 	String searchCriteria;
 	SearchType searchType;
 	
-	public void getPersons(String searchCriteria, SearchType searchtype){
-		
+	Set<Person> getPersons(){
+		return null;
 	}
 
 	public void setSearchCriteria(String searchCriteria) {
